@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.ae_id_sorter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RepoSortMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
